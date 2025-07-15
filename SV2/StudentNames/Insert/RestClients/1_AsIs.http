@@ -1,0 +1,16 @@
+POST http://localhost:3000/SV2/StudentNames/Insert/AsIs
+Content-Type: application/json
+
+{
+  "StudentName": "sre",
+  "Mobile": "55",
+  "email": "ss",
+  "CollegeName": "1",
+  "Country": "w",
+  "EntranceRank": "11",
+  "YearPassOut": "11",
+  "Back-logs": "11",
+  "Roll Number": "11",
+  "file": "11",
+  "GitLink": "111"
+}

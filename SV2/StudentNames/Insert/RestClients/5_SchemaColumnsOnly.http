@@ -1,0 +1,16 @@
+POST http://localhost:3000/SV2/StudentNames/Insert/SchemaColumnsOnly
+Content-Type: application/json
+
+{
+  "StudentName": "",
+  "Mobile": "",
+  "email": "",
+  "CollegeName": "",
+  "Country": "",
+  "EntranceRank": "",
+  "YearPassOut": "",
+  "Back-logs": "",
+  "Roll Number": "",
+  "file": "",
+  "GitLink": ""
+}
