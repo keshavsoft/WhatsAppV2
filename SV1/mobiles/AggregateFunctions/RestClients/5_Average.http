@@ -1,0 +1,1 @@
+GET http://localhost:3000/SV1/mobiles/AggregateFunctions/Average/{ColumnName}

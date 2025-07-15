@@ -1,0 +1,7 @@
+POST http://localhost:3000/SV1/mobiles/Validate/Insert/http
+Content-Type: application/json
+
+{
+  "Key": "",
+  "Value": ""
+}

@@ -1,0 +1,7 @@
+POST http://localhost:3000/V1/mobiles/Insert/SchemaColumnsOnly
+Content-Type: application/json
+
+{
+  "Key": "",
+  "Value": ""
+}

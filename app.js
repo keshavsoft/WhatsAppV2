@@ -3,6 +3,7 @@ import { StartFunc as StartFuncPortListen } from "./PortListen.js";
 
 import { StartFunc as StartFuncKWSServer } from "./Projects/KWSServer/EntryFile.js";
 import { router as routerFromDataFolder } from "./DataFolder/routes.js";
+import { router as routerFromV1 } from "./V1/routes.js";
 
 import { StartFunc as StartFuncFromEntryFile } from "./WA/entryFile.js";
 
@@ -28,6 +29,7 @@ app.use(cookieParser());
 
 app.use('/', express.static(path.join(path.resolve(), 'public')));
 app.use("/DataFolder", routerFromDataFolder);
+app.use("/V1", routerFromV1);
 
 app.get('/StartWA', async (req, res) => {
     await StartFuncFromEntryFile({ inReponse: res });
