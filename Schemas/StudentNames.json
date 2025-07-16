@@ -113,6 +113,11 @@
             "unique": false,
             "type": "text",
             "isInput": true
+        },
+         {
+            "field": "KS-Select",
+            "title": "Select",
+            "checkbox": true
         }
     ],
     "data": {},
@@ -229,6 +234,11 @@
             "unique": false,
             "type": "text",
             "isInput": true
+        },
+         {
+            "field": "KS-Select",
+            "title": "Select",
+            "checkbox": true
         }
     ]
 }

@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "StudentName": "bcjs Sir",
+    "Mobile": "99999",
+    "email": "jij",
+    "CollegeName": "iit",
+    "Country": "india",
+    "EntranceRank": "1",
+    "YearPassOut": "2021",
+    "Back-logs": "0",
+    "Roll Number": "1",
+    "GitLink": "kkk",
+    "KS-Select": true,
+    "pk": 1
+  },
+  {
+    "StudentName": "jn",
+    "Mobile": "n",
+    "email": "jij",
+    "CollegeName": "nk",
+    "Country": "n",
+    "EntranceRank": "21",
+    "YearPassOut": "2020",
+    "Back-logs": "0",
+    "Roll Number": "2",
+    "GitLink": "929",
+    "KS-Select": true,
+    "pk": 2
+  }
+]
