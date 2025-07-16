@@ -20,6 +20,8 @@ dotenv.config();
 import { fileURLToPath } from 'url';
 import { router as routerFromV2 } from "./V2/routes.js";
 import { router as routerFromSV2 } from "./SV2/routes.js";
+import { router as routerFromV3 } from "./V3/routes.js";
+import { router as routerFromSV3 } from "./SV3/routes.js";
 
 const __filename = fileURLToPath(import.meta.url);
 global.__basedir = path.dirname(__filename);
@@ -31,11 +33,13 @@ var port = normalizePort(process.env.PORT || '7019');
 
 app.use(cookieParser());
 
-app.use('/', express.static(path.join(path.resolve(), 'public')));
+app.use('/', express.static(path.join(path.resolve(), 'Public')));
 app.use("/DataFolder", routerFromDataFolder);
 app.use("/V1", routerFromV1);
 app.use("/V2", routerFromV2);
 app.use("/SV2", StartFuncFromMiddleware, routerFromSV2);
+app.use("/V3", routerFromV3);
+app.use("/SV3", StartFuncFromMiddleware, routerFromSV3);
 
 app.get('/StartWA', async (req, res) => {
     await StartFuncFromEntryFile({ inReponse: res });
