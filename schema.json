@@ -1,5 +1,6 @@
 {
     "Tables": [
-        "StudentNames"
+        "StudentNames",
+        "mobiles"
     ]
 }
