@@ -1,0 +1,4 @@
+POST http://localhost:7019/SV4/mobiles/Insert/SchemaColumnsOnly
+Content-Type: application/json
+
+{}

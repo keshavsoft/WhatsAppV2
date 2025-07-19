@@ -1,0 +1,6 @@
+POST http://localhost:7019/SV4/mobiles/Insert/BulkAsIs
+Content-Type: application/json
+
+[
+  {}
+]
