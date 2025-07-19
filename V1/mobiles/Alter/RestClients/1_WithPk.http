@@ -1,4 +1,0 @@
-POST http://localhost:3000/V1/mobiles/Alter/WithPk/{pk}
-Content-Type: application/json
-
-{}

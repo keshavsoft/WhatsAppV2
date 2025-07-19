@@ -1,1 +1,1 @@
-GET http://localhost:3000/SV1/mobiles/SubTable/Read/AsIs/{RowIndex}/{KeyName}
+GET http://localhost:7019/SV6/mobiles/SubTable/Read/AsIs/{RowIndex}/{KeyName}

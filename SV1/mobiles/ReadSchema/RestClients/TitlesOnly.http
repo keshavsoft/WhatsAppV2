@@ -1,1 +1,1 @@
-GET http://localhost:3000/SV1/mobiles/ReadSchema/TitlesOnly
+GET http://localhost:7019/SV6/mobiles/ReadSchema/TitlesOnly

@@ -1,1 +1,1 @@
-GET http://localhost:3000/V1/mobiles/GroupBy/GroupSingleColumn/{ColumnName}
+GET http://localhost:7019/V6/mobiles/GroupBy/GroupSingleColumn/{ColumnName}

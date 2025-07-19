@@ -1,7 +1,0 @@
-POST http://localhost:3000/SV1/mobiles/Insert/AsIsNoPk
-Content-Type: application/json
-
-{
-  "Key": "",
-  "Value": ""
-}

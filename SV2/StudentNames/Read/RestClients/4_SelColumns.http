@@ -1,4 +1,0 @@
-POST http://localhost:3000/SV2/StudentNames/Read/SelColumns
-Content-Type: application/json
-
-[ "exampleKey"]

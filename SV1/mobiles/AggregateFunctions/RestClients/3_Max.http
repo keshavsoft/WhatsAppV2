@@ -1,1 +1,1 @@
-GET http://localhost:3000/SV1/mobiles/AggregateFunctions/Max/{ColumnName}
+GET http://localhost:7019/SV6/mobiles/AggregateFunctions/Max/{ColumnName}

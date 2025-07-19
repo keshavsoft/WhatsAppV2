@@ -1,1 +1,1 @@
-DELETE http://localhost:3000/V1/mobiles/SubTable/Delete/WithPk/{RowPk}/{KeyName}/{Key}
+DELETE http://localhost:7019/V6/mobiles/SubTable/Delete/WithPk/{RowPk}/{KeyName}/{Key}

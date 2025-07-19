@@ -1,6 +1,0 @@
-POST http://localhost:7019/V4/mobiles/Insert/BulkAsIs
-Content-Type: application/json
-
-[
-  {}
-]
